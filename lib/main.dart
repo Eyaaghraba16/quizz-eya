@@ -37,7 +37,7 @@ class _QuizPageState extends State<QuizPage> {
     'correctAnswer': 'Océan Pacifique'
   },
   {
-    'question': 'Quel est le symbole chimique de l'eau ?',
+    'question': 'Quel est le symbole chimique de l\'eau ?',
     'answers': ['O2', 'H2O', 'CO2', 'N2'],
     'correctAnswer': 'H2O'
   }
@@ -60,6 +60,7 @@ class _QuizPageState extends State<QuizPage> {
       setState(() {
         isQuizCompleted = true;
       });
+      
     }
   }
 
